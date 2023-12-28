@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TrafficPolice.Reference
 {
-    internal class Incident
+    internal class Incidents//Характеристики происшествий
     {
-        public int IncidentId { get; set; }//Связать с таблицей TrafficPolice.Incident
+        public int IncidentId { get; set; }//Связать с таблицей TrafficPolice.Incidents
         public string Description { get; set; }
 
-        public Incident() { }
-        public static void Edit(Incident incident)//редактирование таблицы характеристик происшествий(отредактировать описание)
+        public Incidents() { }
+        public static void Edit(Incidents incident)//редактирование таблицы характеристик происшествий(отредактировать описание)
         {
             Console.WriteLine("Описание происшествия:");
             Console.WriteLine($"\t{incident.Description}");

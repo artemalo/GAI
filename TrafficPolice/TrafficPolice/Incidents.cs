@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrafficPolice
 {
-    internal class Incident
+    internal class Incidents//Происшествия
     {
         public int IncidentId { get; set; }//Уникольный номер происшествия
         public DateTime Date { get; set; }//дата

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C08BD2F-3D00-4D8A-AD56-AAE7314C7EEE}</ProjectGuid>
+    <ProjectGuid>{F5FFCA1B-0604-4D57-BF55-D226EE2EE754}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TrafficPolice</RootNamespace>
     <AssemblyName>TrafficPolice</AssemblyName>
@@ -43,17 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Incident.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="LicensePlates\AvailableNumbers.cs" />
     <Compile Include="LicensePlates\IssuedOrganization.cs" />
     <Compile Include="LicensePlates\IssuedOwners.cs" />
+    <Compile Include="Reference\Incidents.cs" />
+    <Compile Include="Incidents.cs" />
+    <Compile Include="Reference\Organization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reference\Incident.cs" />
-    <Compile Include="Reference\Organization.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

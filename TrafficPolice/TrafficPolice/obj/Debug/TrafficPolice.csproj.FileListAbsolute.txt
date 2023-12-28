@@ -1,0 +1,7 @@
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\bin\Debug\TrafficPolice.exe.config
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\bin\Debug\TrafficPolice.exe
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\bin\Debug\TrafficPolice.pdb
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\obj\Debug\TrafficPolice.csproj.AssemblyReference.cache
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\obj\Debug\TrafficPolice.csproj.CoreCompileInputs.cache
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\obj\Debug\TrafficPolice.exe
+D:\GitHub\GAI\TrafficPolice\TrafficPolice\obj\Debug\TrafficPolice.pdb
